@@ -1,0 +1,23 @@
+{
+  "name": "api-framework",
+  "version": "1.0.0",
+  "description": "Playwright-based API test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:list": "playwright test --reporter=list",
+    "test:debug": "PWDEBUG=1 playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.7.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^17.4.2"
+  }
+}
