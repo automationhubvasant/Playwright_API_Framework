@@ -60,7 +60,7 @@ npx playwright test tests/booking.spec.js
 npx playwright test -g "creates booking"
 ```
 
-Run against a different environment without changing code:
+Run against a different environment without changing code :
 
 ```bash
 BASE_URL=https://staging.example.com npm test
