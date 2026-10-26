@@ -22,7 +22,7 @@ export default defineConfig({
       ]
     : [['list'], ['html', { open: 'never' }]],
   use: {
-    baseURL: "env.baseURL",
+    baseURL: env.baseURL,
     extraHTTPHeaders: {
       'Content-Type': 'application/json',
       Accept: 'application/json',
