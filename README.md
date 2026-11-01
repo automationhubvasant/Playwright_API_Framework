@@ -32,7 +32,7 @@ npm install
 cp .env.example .env
 ```
 
-Edit `.env` if you want to point at a different environment. Defaults work against the public restful-booker demo:
+Edit `.env` if you want to point at a different environment. Defaults work against the public restful-booker demo :
 
 ```env
 BASE_URL=https://restful-booker.herokuapp.com
